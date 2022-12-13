@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title {
+    padding-top: 40px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.edu h3,
+.intern h3,
+.projects h3,
+.skill h3,
+.extra h3,
+.declare h3 {
+    text-transform: uppercase;
+    color: blue;
+    margin: 10px 10px 5px 20px;
+}
+
+.info {
+    text-align: center;
+    margin-left: 550px;
+}
+
+a {
+
+    color: darkkhaki;
+}
+
+.image {
+    width: 10%;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+
+hr {
+    width: 97%;
+    margin: 0 auto;
+    border: 2px solid blue;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.eduC h4,
+.internC h4,
+.projectC h4,
+.skillC h4,
+.extraC h4 {
+    padding-left: 18px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+pre {
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 50px;
+}
+
+.declare p {
+    margin-left: 20px;
+    word-spacing: 3px;
+}

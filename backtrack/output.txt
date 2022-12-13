@@ -1,0 +1,17 @@
+hello0
+1
+2
+b0q0b1q1
+2
+b0q0b2q1
+2
+b0q0b3q1
+1
+2
+b1q0b2q1
+2
+b1q0b3q1
+1
+2
+b2q0b3q1
+1

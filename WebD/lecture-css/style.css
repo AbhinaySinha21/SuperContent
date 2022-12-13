@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+}
+
+ul {
+    background-image: linear-gradient(blue, red);
+}
+
+ul li {
+    color: white;
+}
+
+#list-item-1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.para {
+    line-height: 50px;
+    border: 2px dashed black;
+}
+
+li>ul li {
+    color: black;
+}
+
+p+img {
+    width: 600px;
+    height: 250px;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+#box:hover {
+    background-color: green;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+
+p~img:hover {
+    transform: scale(2);
+    transition: transform 0.4s;
+}
+
+ul:first-child {
+    background-color: yellow;
+}
